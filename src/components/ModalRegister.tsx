@@ -258,7 +258,7 @@ export default function ModalRegister() {
             </div>
 
             {/* Total Payment */}
-            <div >Total Payment : ... {computeTotalPayment().toLocaleString()} THB</div>
+            <div >Total Payment :{computeTotalPayment().toLocaleString()} THB</div>
           </div>
           <div className="modal-footer">
             {/* Checkbox for user agreement */}
